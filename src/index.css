@@ -79,6 +79,7 @@ select {
 /* ----- Base Styles ----- */
 :root {
     --clr-neutral-200: rgb(244, 244, 244);
+    --clr-neutral-400: #ddd;
     --clr-neutral-800: #333;
 
     --text-size-xs: 0.5rem;
