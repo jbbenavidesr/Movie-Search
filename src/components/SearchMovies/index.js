@@ -47,7 +47,7 @@ function MovieSearch(props) {
                 />
                 <button className="button">Search</button>
             </form>
-            <ul role="list" className="card-list">
+            <ul role="list" className="auto-grid">
                 {movies
                     .filter((movie) => movie.poster_path)
                     .map(function (movie) {
